@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Contacts from './components/Contacts/Contacts'
+import Portfolio from './components/Portfolio/Portfolio'
 import Error from './components/Error/Error'
 import Navigation from './components/Navigation/Navigation'
 
