@@ -15,12 +15,12 @@ const Navigation = () => {
           </li>
           <li class="nav-item">
             <a class="nav-link">
-              <NavLink className="nav-link" to="/about">About</NavLink>
+              <NavLink className="nav-link" to="/portfolio">Portfolio</NavLink>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link">
-              <NavLink className="nav-link" to="/portfolio">Portfolio</NavLink>
+              <NavLink className="nav-link" to="/about">About</NavLink>
             </a>
           </li>
           <li class="nav-item">
