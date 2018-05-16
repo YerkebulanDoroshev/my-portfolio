@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from './../../../static/index.png'
-import data from './../../../static/portfolio.json'
+import logo from './../../static/index.png'
+import data from './../../static/portfolio.json'
 
 const Card = (props) => {
   return (

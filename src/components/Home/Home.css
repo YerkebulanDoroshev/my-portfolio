@@ -1,21 +1,14 @@
 
-
 .jumbotron{
   background-image: url('./../../static/StockSnap_029V8EW5IJ.jpg');
   background-repeat:no-repeat;
   background-position:center;
   background-size: cover;
-  padding:200px 0 140px 0;
+  padding:40vh 0 25vh 0;
   color: white;
 }
+
 .card{
   margin: 20px 0;
   width: 20rem;
-}
-
-footer{
-  background: #343a40;
-  color: white;
-  text-align: center;
-  padding: 50px;
 }
