@@ -1,8 +1,30 @@
 
-footer{
+.Footer footer{
   font-family: 'Raleway', sans-serif;
-  background: #343a40;
+  background:rgb(52, 172, 165);
   color: white;
   text-align: center;
   padding: 50px 0 25px 0;
+}
+
+.Footer .owner-name{
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+.Footer .owner-description{
+  font-size: 1rem;
+}
+.Footer .links a{
+  color:white;
+  margin: 5px;
+}
+.Footer .links a:hover{
+  color:rgb(178, 178, 178);
+}
+.Footer .city-name{
+  margin-bottom: 0; 
+}
+.Footer .years-of-living{
+  font-family: Helvetica, sans-serif;
 }
