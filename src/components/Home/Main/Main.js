@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Card from './../../Card/Card'
+import './Main.css'
 
  class Main extends Component {
   render() {
@@ -10,7 +11,7 @@ import Card from './../../Card/Card'
       );
     } 
     return (
-      <div>
+      <div className="Main">
         <main>
           <div className="container d-flex justify-content-around flex-wrap">
             {rows}
