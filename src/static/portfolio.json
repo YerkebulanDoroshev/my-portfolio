@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "img": "",
+    "img": "./../../covers/1.png",
     "title": "Turanter",
-    "description":"Touristic site"
+    "shortDescription":"Tурецкая туристическая компания"
   },
   {
     "id": 2,
-    "img": "",
-    "title": "Last Time I Committed Suicide, The",
-    "description": "Touristic site"
+    "img": "./../../covers/2.png",
+    "title": "Lightning Design",
+    "shortDescription": "Компания по веб-разработке и дизайна"
     
   },
   {
     "id": 3,
-    "img": "",
-    "title": "Jerry Seinfeld: 'I'm Telling You for the Last Time'",
-    "description": "Touristic site"
+    "img": "./../../covers/3.png",
+    "title": "Mezunion",
+    "shortDescription": "Студенческая благотворительная организация."
   }
 ]
