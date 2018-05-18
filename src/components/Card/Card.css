@@ -3,6 +3,9 @@
   background-color: transparent;
   border: 2px solid rgb(52, 172, 165);
   color:white;
+  margin: 20px 0;
+  width: 20rem;
+  
 }
 .card .card-block{
   padding: 10px;
@@ -13,4 +16,13 @@
 .card .card-block a{
   font-weight: 700;
   background-color: rgb(52, 172, 165);
+}
+.card .card-block a:hover{
+  color:rgb(210, 210, 210);
+  background-color: rgb(40, 160, 150);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.card .card-block a:active{
+  background-color: rgb(35, 150, 140);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
