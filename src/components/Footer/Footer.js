@@ -13,9 +13,10 @@ const Footer = () => {
           </div>
 
           <div className="p-2 flex-fill bd-highlight links">
-            <a href="https://www.instagram.com/y.e.r.k.e/"><FontAwesome.FaInstagram size={60} /></a>
-            <a href="https://github.com/YerkebulanDoroshev"><FontAwesome.FaGithub size={60} /></a>
-            <a href="https://www.linkedin.com/in/yerkebulan"><FontAwesome.FaLinkedin size={60} /></a>
+            <a href="https://www.instagram.com/y.e.r.k.e/" target="_blank"><FontAwesome.FaInstagram size={60} /></a>
+            <a href="https://github.com/YerkebulanDoroshev" target="_blank"><FontAwesome.FaGithub size={60} /></a>
+            <a href="https://www.linkedin.com/in/yerkebulan" target="_blank"><FontAwesome.FaLinkedin size={60} /></a>
+            <a href="https://t.me/Yerke13" target="_blank"><FontAwesome.FaPaperPlane size={60} /></a>
           </div>
         </div>
         <p className="city-name">Almaty, Kazakhstan</p>
