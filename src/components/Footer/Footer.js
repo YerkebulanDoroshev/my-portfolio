@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="city-name">Almaty, Kazakhstan</p>
-        <p className="years-of-living">2016 - {(new Date().getFullYear())}</p>
+        <p className="years-of-living">{(new Date().getFullYear())}</p>
       </footer>
     </div>
   )
