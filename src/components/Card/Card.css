@@ -1,34 +1,45 @@
 .card{
-  font-family: 'Raleway', sans-serif;
-  color: black;
+  opacity: 1;
+  background: #575756;
+  border: none;
   margin: 20px 0;
   width: 20rem;
   height: 20rem;
+  border-radius: 10px;
 }
-
-/* .card .card-img-top{
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  height: 20rem;
-  
-} */
+.card:hover{
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
 
 .card .card-block{
+  font-family: 'Raleway', sans-serif;
+  color: black;
   background-size: cover;
-  padding: 7rem 10px 0;
-}
-.card .card-block:hover{
-    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
-    filter: blur(4px);
-    
+  border-radius: 10px;
+  
 }
 
+.card:hover .card-block{
+  opacity: 1;
+  
+}
+.card:hover .card-block{
+  opacity: 0.1;
+  -webkit-transition: opacity 0.4s linear;
+     -moz-transition: opacity 0.4s linear;
+     -o-transition: opacity 0.4s linear;
+     transition: opacity 0.4s linear;
+  
+}
 .card .card-title{
-  font-size: 2rem;
-  color:rgb(52, 172, 165);
+  display: none;
+  position: absolute;
+  bottom: 0;
+  color:white;
+  padding:0 20px; 
 }
-.card .card-block .card-text{
-  font-size: 1.2rem;
-  font-family: 'Alegreya Sans', serif;
 
+.card:hover .card-title{
+  display: block;
 }
