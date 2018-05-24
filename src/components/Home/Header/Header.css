@@ -3,10 +3,16 @@
 }
 .Header .jumbotron {
   margin-bottom: 0;
-  background-image: url('./../../../static/bg.jpg');
+  background-color: white;
   background-repeat:no-repeat;
   background-position:center;
   background-size: cover;
   padding:40vh 0 25vh 0;
-  color: white;
+  color: black;
 }
+
+@media (max-width: 576px) { 
+  .Header .display-1{
+    font-size: 4rem;
+}
+ }

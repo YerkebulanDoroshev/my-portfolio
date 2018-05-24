@@ -6,7 +6,7 @@
 .Navigation li{
   list-style: none;
 }
-.Navigation nav{
+.Navigation .nav, .logo{
   background-color:  rgb(52, 172, 165);
 }
 .Navigation a{
@@ -17,8 +17,4 @@
 }
 .Navigation a .active{
   color: rgb(87, 87, 86);
-}
-.Navigation .logo img{
-  width:80px;
-  height: 50px;
 }

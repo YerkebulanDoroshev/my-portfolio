@@ -6,7 +6,7 @@ const Header = () => {
     <div className="Header">
       <header>
         <div className="jumbotron jumbotron-fluid">
-          <div className="container">
+          <div className="container text-center">
             <h1 className="display-1">Welcome</h1>
             <h5 className="lead">Portfolio of design, web, mobile development</h5>
           </div>
