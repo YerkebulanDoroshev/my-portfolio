@@ -1,11 +1,10 @@
 import React from 'react'
-import Footer from './../Footer/Footer'
+import {Footer} from '../../components'
 
 const Portfolio = () => {
   return (
     <div>
       <h1>Portfolio</h1>
-      <Footer />
     </div>
   )
 }

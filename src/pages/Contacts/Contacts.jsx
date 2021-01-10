@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './../Footer/Footer'
 import './Contacts.css'
 
 const Contacts = () => {
@@ -24,7 +23,6 @@ const Contacts = () => {
         </div>
 
       </main>
-      <Footer />
     </div>
   )
 }

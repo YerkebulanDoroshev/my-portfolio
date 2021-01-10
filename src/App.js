@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './App.css';
-
-import Home from './components/Home/Home'
-import About from './components/About/About'
-import Contacts from './components/Contacts/Contacts'
-import Portfolio from './components/Portfolio/Portfolio'
-import Error from './components/Error/Error'
-import Navigation from './components/Navigation/Navigation'
+import {Home, Portfolio, About, Contacts, Error} from './pages'
+import {Navigation, Footer} from './components'
 
 
 
@@ -24,6 +19,7 @@ class App extends Component {
             <Route path="/contacts" component={Contacts} />
             <Route component={Error} />
           </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );

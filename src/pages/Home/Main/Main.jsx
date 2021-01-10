@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
-import Card from './../../Card/Card'
+import { NavLink } from 'react-router-dom'
+
+import {Card} from '../../../components'
 import './Main.css'
+
 import logo1 from './../../../static/covers/1.png'
 import logo2 from './../../../static/covers/2.png'
 import logo3 from './../../../static/covers/3.png'
-import { NavLink } from 'react-router-dom'
 
  class Main extends Component {
   render() {
