@@ -14,13 +14,13 @@ const Footer = () => {
 
           <div className="p-2 flex-fill bd-highlight links">
             <a 
-              href="https://www.instagram.com/y.e.r.k.e/" 
+              href="https://www.instagram.com/yerkeboolean/" 
               target="_blank" 
               rel="noopener noreferrer">
                 <FontAwesome.FaInstagram size={60} />
             </a>
             <a 
-              href="https://github.com/YerkebulanDoroshev" 
+              href="https://github.com/yerkeboolean" 
               target="_blank" 
               rel="noopener noreferrer">
                 <FontAwesome.FaGithub size={60} />
@@ -32,7 +32,7 @@ const Footer = () => {
                 <FontAwesome.FaLinkedin size={60} />
             </a>
             <a 
-              href="https://t.me/Yerke13" 
+              href="https://t.me/Doroshev" 
               target="_blank" 
               rel="noopener noreferrer">
                 <FontAwesome.FaPaperPlane size={60} />
