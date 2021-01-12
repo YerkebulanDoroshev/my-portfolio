@@ -1,20 +1,22 @@
-.Navigation{
-  font-family: 'Raleway', sans-serif;
+.Navigation {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 2rem;
 }
-.Navigation li{
+.Navigation li {
   list-style: none;
 }
-.Navigation .nav, .logo{
-  background-color:  rgb(52, 172, 165);
+.Navigation .nav,
+.logo {
+  background-color: #0a46bf;
 }
-.Navigation a{
+.Navigation a {
   color: white;
 }
-.Navigation a:hover{
+.Navigation a:hover {
   color: rgb(178, 178, 178);
 }
-.Navigation a .active{
-  color: rgb(87, 87, 86);
+.Navigation .active-link {
+  color: rgb(140, 140, 140);
+  text-decoration: underline;
 }

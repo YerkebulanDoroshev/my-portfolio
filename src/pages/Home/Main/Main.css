@@ -1,20 +1,20 @@
-.Main{
+.Main {
   background-color: white;
   padding: 10px;
 }
-.view-all{
-  font-family: 'Raleway', sans-serif;
-  color:white;
-  font-weight: 500;
-  background-color: rgb(52, 172, 165);
-  font-size: 1.8rem;
+.view-all {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 300;
+  background-color: #0a46bf;
+  font-size: 24px;
 }
-.view-all:hover{
-  color:rgb(210, 210, 210);
-  background-color: rgb(40, 160, 150);
+.view-all:hover {
+  color: rgb(210, 210, 210);
+  background-color: #0a46bf;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-.view-all:active{
-  background-color: rgb(35, 150, 140);
+.view-all:active {
+  background-color: #0a46bf;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
