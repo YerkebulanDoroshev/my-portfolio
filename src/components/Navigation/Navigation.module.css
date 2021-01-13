@@ -1,0 +1,33 @@
+.Navigation {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 20px 30px;
+  background-color: #0a46bf;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.navLink {
+  color: white;
+  margin-left: 30px;
+}
+
+.navLink:hover {
+  color: rgb(178, 178, 178);
+}
+.navLink:focus {
+  color: rgb(140, 140, 140);
+}
+.activeLink {
+  color: rgb(140, 140, 140);
+  text-decoration: underline;
+}
+
+.logo {
+  width: 200px;
+}
+.links {
+  display: flex;
+  justify-self: flex-end;
+}
