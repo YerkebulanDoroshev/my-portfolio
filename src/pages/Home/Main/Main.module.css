@@ -2,19 +2,19 @@
   background-color: white;
   padding: 10px;
 }
-.view-all {
+.viewAll {
   font-family: "Raleway", sans-serif;
   color: white;
   font-weight: 300;
   background-color: #0a46bf;
   font-size: 24px;
 }
-.view-all:hover {
+.viewAll:hover {
   color: rgb(210, 210, 210);
   background-color: #0a46bf;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-.view-all:active {
+.viewAll:active {
   background-color: #0a46bf;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
