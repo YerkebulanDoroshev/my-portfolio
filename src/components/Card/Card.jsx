@@ -9,7 +9,7 @@ const Card = (props) => {
         
       </div>
       <div className="card-title">
-        <h4 >{props.title}</h4>
+        <h4>{props.title}</h4>
         <p>{props.shortDescription}</p>
       </div>
        

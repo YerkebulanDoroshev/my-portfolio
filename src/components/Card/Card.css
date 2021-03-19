@@ -1,15 +1,18 @@
 .card{
   opacity: 1;
-  background: #575756;
   border: none;
   margin: 20px 0;
   width: 20rem;
   height: 20rem;
   border-radius: 10px;
+  background: #000000;
+  border: none;
+  box-shadow: 2px 5px 20px 5px rgba(0, 0, 0, 0.3);
+
 }
 .card:hover{
   text-decoration: none;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0);
 }
 
 .card .card-block{
@@ -19,6 +22,7 @@
   border-radius: 10px;
   
 }
+
 
 .card:hover .card-block{
   opacity: 1;
